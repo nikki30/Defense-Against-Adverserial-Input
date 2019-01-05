@@ -3,7 +3,7 @@ Study of Adversarial Attack and Defense Methods
 
 ## Introduction
 
-Neural network is vulnerable to adversarial examples, which means that inputs formed by adding small perturbations will make network output incorrect answer with high confidence. Hence, it isdifficult to apply neural networks in security-critical areas. Our
+Neural network is vulnerable to adversarial examples, which means that inputs formed by adding small perturbations will make network output incorrect answer with high confidence. Hence, it isdifficult to apply neural networks in security-critical areas. 
 
 ## Our Basic Setup
 
