@@ -61,6 +61,7 @@ Enhancing the resolution repairs the important portions of the image and helps i
 
 # Summary of project
 The image processing techniques are a simple, quick and efficient way to reverse the effects of CW attack algorithm on original input data.
+
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/11.png)
 
 ## Why We Think It Doesn’t Work Well for FGSM
