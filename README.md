@@ -11,7 +11,7 @@ Dataset: Digit-recognition task (0-9) standard dataset MNIST
 Network Structure: shown on the right
 Our defense method focuses on the CW attack algorithm
 
-![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/img/4.png)
+![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/4.png)
 
 ## Original Result
 
