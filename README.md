@@ -1,5 +1,5 @@
 # Defense Against Adverserial Input
-Study of Adversarial Attack and Defense Methods
+Study of Image Processing Techniques on Adversarial Attack and Defense Methods
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Neural network is vulnerable to adversarial examples, which means that inputs fo
 ## Our Basic Setup
 
 Dataset: Digit-recognition task (0-9) standard dataset MNIST
-Network Structure: shown on the right
+Network Structure: shown below
 Our defense method focuses on the CW attack algorithm
 
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/4.png)
@@ -37,10 +37,11 @@ The L2 norm is more stable than the L1 norm, although more rigorous to compute. 
 ## For CW, the accuracy is 22.5%, and images generated are as follows:
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/6.png)
 
-# Part 1 results: JPEG Compression
+# Our work: 
+# Part 1: Using JPEG Compression on CW generated images to help defense increase accuracy 
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/7.png)
 
-# Part 2 introduction: Low Pass Filter
+# Part 2:Using Low Pass Filter on CW generated images to help defense increase accuracy 
 Gaussian filter: modify the input image by convolution with a Gaussian function, used to reduce image noise and reduce detail
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/8.png)
 
@@ -48,7 +49,7 @@ Gaussian filter: modify the input image by convolution with a Gaussian function,
 The accuracy for examples filtered by low pass filter is 99% when sigma = 1
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/9.png)
 
-# Part 3: JPEG Compression & Resolution Enhancement 
+# Part 3: Using JPEG Compression & Resolution Enhancement 
 Resolution Enhancement is a method to make the image look CLEARER
 We used pretrained neural network(vgg19 etc.)
 
@@ -59,6 +60,7 @@ Enhancing the resolution repairs the important portions of the image and helps i
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/10.png)
 
 # Summary of project
+The image processing techniques are a simple, quick and efficient way to reverse the effects of CW attack algorithm on original input data.
 ![cnn](https://github.com/nikki30/Defense-Against-Adverserial-Input/blob/master/img/11.png)
 
 ## Why We Think It Doesn’t Work Well for FGSM
